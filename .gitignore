@@ -1,0 +1,17 @@
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated indexes (rebuilt by ingest.py)
+chroma_db/
+index/
+
+# 3GPP source spec files (large binaries — place .docx/.pdf files here before running ingest.py)
+*.docx
+*.pdf
+
+# Environment variables
+.env
